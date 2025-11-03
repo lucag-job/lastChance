@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat Widget Demo</title>
+  <style>
+    body {
+      background-color: orange;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to the Chat Widget Demo</h1>
+  <p>The chat should appear shortly...</p>
+
+  <script id="Microsoft_Omnichannel_LCWidget"
+    src="https://oc-cdn-public-eur.azureedge.net/livechatwidget/scripts/LiveChatBootstrapper.js"
+    onerror="(function(el){
+      el.parentNode.removeChild(el);
+      var s=document.createElement('script');
+      s.src='https://ocprodpubliceurgs.blob.core.windows.net/livechatwidget/scripts/LiveChatBootstrapper.js';
+      s.setAttribute('id', 'Microsoft_Omnichannel_LCWidget');
+      s.setAttribute('data-app-id', '5b0d76ba-c3fa-480e-8897-6285db924566');
+      s.setAttribute('data-lcw-version', 'prod');
+      s.setAttribute('data-org-id', '58009252-ce93-f011-a6fe-000d3a3a034a');
+      s.setAttribute('data-org-url', 'https://m-58009252-ce93-f011-a6fe-000d3a3a034a.eu.omnichannelengagementhub.com');
+      document.body.appendChild(s);
+    })(this);"
+    data-app-id="5b0d76ba-c3fa-480e-8897-6285db924566"
+    data-lcw-version="prod"
+    data-org-id="58009252-ce93-f011-a6fe-000d3a3a034a"
+    data-org-url="https://m-58009252-ce93-f011-a6fe-000d3a3a034a.eu.omnichannelengagementhub.com"
+   
